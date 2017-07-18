@@ -1,0 +1,33 @@
+body {
+  background-color:grey;
+  text-align:center;
+}
+
+#calculator {
+  background-color: darkgrey;
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+
+#display {
+  margin-bottom:20px;
+  height: 30px;
+  width:12em;
+  text-align:right;
+  font:20px bold;
+}
+
+.keys {
+  width: 41px;
+  height: 35px;
+  margin: 4px;
+  outline:none;
+}
+
+#equals {
+  width: 95px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div>
+  <h1>Calculator</h1>
+  <div id="calculator">
+    <form action="">
+      <input type="text" id="display" disabled/>
+      <br />
+      <input class="keys" type="button" value='C' onclick='toScreen("C")'/>
+      <input class="keys" type="button" value='CE' onclick='clearEntry()'/>
+      <input class="keys" type="button" value='x^2' onclick='squared()'/>
+      <input class="keys" type="button" value='+' onclick='toScreen("+")'/>
+      <br />
+      <input class="keys" type="button" value='7' onclick='toScreen("7")'/>
+      <input class="keys" type="button" value='8' onclick='toScreen("8")'/>
+      <input class="keys" type="button" value='9' onclick='toScreen("9")'/>
+      <input class="keys" type="button" value='-' onclick='toScreen("-")'/>
+      <br />
+      <input class="keys" type="button" value='4' onclick='toScreen("4")'/>
+      <input class="keys" type="button" value='5' onclick='toScreen("5")'/>
+      <input class="keys" type="button" value='6' onclick='toScreen("6")'/>
+      <input class="keys" type="button" value='*' onclick='toScreen("*")'/>
+      <br />
+      <input class="keys" type="button" value='1' onclick='toScreen("1")'/>
+      <input class="keys" type="button" value='2' onclick='toScreen("2")'/>
+      <input class="keys" type="button" value='3' onclick='toScreen("3")'/>
+      <input class="keys" type="button" value='/' onclick='toScreen("/")'/>
+      <br />
+      <input class="keys" type="button" value='0' onclick='toScreen("0")'/>
+      <input class="keys" type="button" value='.' onclick='toScreen(".")'/>
+      <input id="equals" class="keys" type="button" value='=' onclick='answer()'/>
+      <br />
+    </form>
+    <h3>A calculator</h3>
+  </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
